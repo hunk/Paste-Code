@@ -1,0 +1,26 @@
+﻿/* ================================================================ **
+** ie-transparency.css
+** ---------------------------------------------------------------- **
+** Created: 03-05-08 (dd-mm-yy)
+** Author: onedollartemplates.com
+** Template: Luminous Flux
+** ================================================================ */
+* html .slideshow .shadow {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/slideshow_left_.png", sizingMethod="crop"); 	
+	zoom: 1;
+	}	
+* html .slideshow .shadow div {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/slideshow_right_.png", sizingMethod="crop"); 	
+	zoom: 1;	
+	}
+	
+* html #body #content { 
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/content_col_.png", sizingMethod="crop"); 	
+	zoom: 1;
+	}	
+	
+.caption div div div { *height: 2.9em; }
+.caption div div div a:hover { text-decoration: none; }

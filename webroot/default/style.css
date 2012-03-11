@@ -1,0 +1,117 @@
+/** -------------------------------------------------------
+ * START: Overlay and Flash Notice Styles
+ * --------------------------------------------------------
+ */
+	#FlashNotice{
+		font-size: 10px;
+		width: 100px;
+		margin: 0px auto;
+		border:0px solid #64A0DC;
+		background: #D0E6FC;
+		position:relative;
+	}
+	#FlashNotice #FlashNoticeHeader {
+		position:relative;
+		top:0;
+		left:0;
+		padding:5px;
+		font-size:1.2em; 
+		font-weight:bold;
+		text-align:left; 
+		color:#FFF; 
+		/*background: url('bg_header.gif') bottom center repeat-x #115FA4;*/
+	}
+	#FlashNoticeHeader a.close { 
+		width:15px;
+		height:15px;
+		position:absolute;
+		top:3px;
+		right:5px;
+		cursor:pointer;
+		 background: url('icon_close.gif') center bottom no-repeat transparent; 
+	}
+	#FlashNoticeHeader a.close:hover {
+		background-position: top center;		
+	}
+	#FlashNoticeContent {
+		/*background: url('bg_content.gif') bottom center repeat-x;*/
+		padding:0px 0px 0px 0px;
+	}
+	#FlashNoticeContent .message span {
+		text-align:left; 
+		font-size:1.2em; 
+		font-weight:bold;
+		padding:0;
+		margin:0;
+	}
+	#FlashNoticeContent .message ul {
+		text-align:left;
+		padding:0;
+		margin:0; 
+		margin-left:15px;
+	}
+	#FlashNoticeContent .message ul li {
+		list-style: disc;
+		font-size:1.2em;
+	}
+	
+	#FlashNoticeContent .message.info,
+	#FlashNoticeContent .message.success,
+	#FlashNoticeContent .message.warning,
+	#FlashNoticeContent .message.error	{
+		padding: 0 0px 0px 0px;
+		margin:0px auto;
+		background:#FFFFFF bottom center repeat-x;
+		border:1px solid;
+		white-space:normal;
+	}
+	#FlashNoticeContent .message.info	{
+		border-color:#33CCFF;
+		background-image:url('bg_info.gif');
+	}
+	#FlashNoticeContent .message.info span {
+		color:#33CCFF;
+	}
+	#FlashNoticeContent .message.success	{
+		border-color: #00CC00;
+		background-image:url('bg_success.gif');
+	}
+	#FlashNoticeContent .message.success span {
+		color: #00CC00;
+	}
+	#FlashNoticeContent .message.warning	{
+		border-color: #FF6600;
+		background-image:url('bg_warning.gif');
+	}
+	#FlashNoticeContent .message.warning h6 {
+		color: #FF6600;
+	}
+	#FlashNoticeContent .message.error	{
+		border-color: #FF0000;
+		background-image:url('bg_error.gif');
+	}
+	#FlashNoticeContent .message.error span {
+		color: #FF0000;
+	}
+	#FlashNotice #FlashNoticeFooter {
+		height:20px;
+		position:relative;
+		left:0;
+		bottom:0;
+	}
+	#FlashNoticeFooter a.close {
+		width:75px;
+		height:21px;
+		cursor:pointer;
+		position:absolute;
+		right:0;
+		background: url('button_close.gif') bottom center no-repeat transparent; 
+	}
+	#FlashNoticeFooter a.close:hover {
+		background-position: top center;
+	}
+	.hide { display: none;}
+/** -------------------------------------------------------
+ * END: Overlay and Flash Notice Styles
+ * --------------------------------------------------------
+ */
